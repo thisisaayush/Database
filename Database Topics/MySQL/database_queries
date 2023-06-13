@@ -1,0 +1,28 @@
+1. show database;
+    - shows all the database in a given schema.
+2. CREATE DATABASE <database_name>
+    - creates the database. 
+3. DROP DATABASE <database_name>
+    - deletes the database.
+4. USE <database_name>
+    - USE cat_database;
+    - SELECT database()
+        - returns cat_database.
+5. CREATE TABLE table_name (
+    name VARCHAR(100),
+    address VARCHAR(100),
+    gender VARCHAR(100),
+    position VARCHAR(100)
+);
+
+   Sample table:
+   CREATE TABLE cats (
+    name VARCHAR(50),
+    age INT
+   );
+
+   CREATE TABLE dogs (
+    name VARCHAR(50),
+    breed VARCHAR(50),
+    age INT
+   );
