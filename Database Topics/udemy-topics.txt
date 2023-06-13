@@ -1,3 +1,4 @@
-Azure SQL Data Warehouse Synapse Analatics Service 
-SQL Server: Learn T-SQL
 MySQL-Udemy
+SQL Server: Learn T-SQL
+MS-SQL | SSMS
+Azure SQL Data Warehouse Synapse Analatics Service 
