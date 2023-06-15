@@ -26,3 +26,10 @@
     breed VARCHAR(50),
     age INT
    );
+
+6. SHOW tables;
+7. SHOW COLUMNS FROM table_name;
+8. DESC table_name;
+9. DELETE TABLE table_name;
+10. INSERT INTO table_name(column_names, ...)
+    VALUES (values1,...)
