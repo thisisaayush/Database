@@ -1,0 +1,7 @@
+Welcome to SQL Intro.
+
+This repo is designed to master Structured Query Language. This repo contains topics on SQL queries
+and how we can used them to store, manipulate, and retrieve huge stores of "Structured Data".
+
+Note: SQL is not case sensitive. Example: select and Select are same for SQL.
+
