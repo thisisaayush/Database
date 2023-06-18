@@ -1,0 +1,11 @@
+"COUNT()" function returns the number of rows in a table.
+"AVG()" function returns average value of a numeric column.
+"SUM()" function returns the sum value of a numberic column.
+
+SYNTAX:
+a.
+SELECT COUNT(column_name) FROM table_name;
+b.
+SELECT AVG(column_name) FROM table_name;
+c. 
+SELECT SUM(column_name) FROM table_name;

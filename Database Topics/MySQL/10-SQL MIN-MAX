@@ -1,0 +1,12 @@
+"MIN()" function returns the smallest value of the selected column.
+"MAX()" function returns the largest value of the selected column. 
+
+SYNTAX:
+a.
+SELECT MIN(column_name) 
+FROM table_name
+WHERE condition;
+b.
+SELECT MAX(column_name)
+FROM table_name
+WHERE condition;

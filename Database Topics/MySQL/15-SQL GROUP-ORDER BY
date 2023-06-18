@@ -1,0 +1,18 @@
+"GROUP BY" statements groups rows that have the same values. Used with- COUNT(), MAX(), 
+ MIN(), SUM(), AVG() to group the result.
+"ORDER BY" statements orders rows based on the given condition. 
+
+SYNTAX:
+a. 
+SELECT COUNT(column_name_1), column_name_2
+FROM table_name
+GROUP BY column_name;
+ORDER BY column_name_4;
+
+Example:
+SELECT COUNT(customerID), customerName
+FROM Customers
+GROUP BY countryName
+ORDER BY countryName ASC; 
+
+NOTE: ASC | DESC denotes ascending | descending order.

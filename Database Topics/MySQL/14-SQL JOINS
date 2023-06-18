@@ -1,0 +1,15 @@
+"JOIN" statement is used to combine rows from two or more tables based on a related column between them. 
+
+SYNTAX:
+a.
+SELECT table_name_1.column_name_1_of_table_name_1, table_name_1.column_name_2_of_table_name_1
+       table_name_2.column_name_1_of_table_name_2, table_name_2.column_name_2_of_table_name_2, ...
+FROM table_name_1
+INNER JOIN table_name_2 
+ON table_name_1.id_1 = table_name_2.id_1
+
+
+Note:
+1. "INNER JOIN" keyword selects records that have matching values in both tables.
+2. "LEFT JOIN" keyword returns all records from the left table and the matching records from the right table.
+3. "RIGHT JOIN" keyword returns all records from the right table and the matching records from the left table.

@@ -1,0 +1,13 @@
+"WHERE" statement is used to filter records from a table.
+It allows to extract only those records that meet the specified condition.
+
+SYNTAX:
+a.
+SELECT column_name_1, column_name_2, ...
+FROM table_name
+WHERE condition;
+
+Example: 
+SELECT * FROM Country
+WHERE countryName = "Canada";
+

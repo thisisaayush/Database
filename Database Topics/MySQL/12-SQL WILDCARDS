@@ -1,0 +1,11 @@
+"LIKE" operator is used with a "WHERE" statement to search for a specified pattern in a column.
+
+SYNTAX:
+a.
+SELECTE column_name_1, column_name_2, ...
+FROM table_name
+WHERE column_name LIKE pattern;
+
+Example:
+SELECT * FROM Customers
+WHERE customerName LIKE '%ab%'; 

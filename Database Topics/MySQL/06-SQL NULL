@@ -1,0 +1,7 @@
+"NULL" indicates a field with no value.
+IS NULL or IS NOT NULL operator is used to check if a field has a value or not. 
+
+SYNTAX:
+a.
+SELECT * FROM table_name
+WHERE column_name IS NULL;

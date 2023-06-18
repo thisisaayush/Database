@@ -3,12 +3,12 @@
 SYNTAX:
 a.
 SELECT * FROM table_name;  
-* --> represent all, which means it selects all the columns of a table. 
+: * --> represent all, which means it selects all the columns of a table. 
 
 b. 
 SELECT column_name_1, column_name_2, ... 
 FROM table_name; 
-It selects only the specifiec column of a table. 
+: It selects only the specifiec column of a table. 
 
 C. SELECT DISTINCT column_name FROM table_name; 
 DISTINCT statement select non-repeated(distinct) columns from the given table.

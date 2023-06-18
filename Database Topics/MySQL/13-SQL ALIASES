@@ -1,0 +1,8 @@
+"Aliases" are used to give a table or a column in a table a temporary name.
+
+SYNTAX:
+a. 
+SELECT column_name_1 AS new_column_name_1,
+column_name_2 AS new_column_name_2, ...
+FROM table_name;
+

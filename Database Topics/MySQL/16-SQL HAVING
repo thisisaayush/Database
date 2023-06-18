@@ -1,0 +1,15 @@
+"HAVING" statement is used with aggregate function where "WHERE" statement can't be used. 
+
+SYNTAX:
+a.
+SELECT * FROM table_name
+WHERE condition_1
+GROUP BY column_name_1
+HAVING condition_2
+ORDER BY column_name_2;
+
+Example:
+SELECT COUNT(customerID), customerName
+FROM Customers
+GROUP BY countryName
+HAVING COUNT(customerID) > 10;

@@ -1,0 +1,10 @@
+"DELETE" statement is used to delete existing records from a table. 
+
+SYNTAX:
+a.
+DELETE FROM  table_name
+WHERE condition;
+
+Example:
+DELETE FROM Customers
+WHERE customerID = 3932;
