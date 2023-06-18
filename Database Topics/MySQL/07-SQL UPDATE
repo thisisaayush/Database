@@ -1,0 +1,12 @@
+"UPDATE" statement is used to modify the existing records in a table.
+
+SYNTAX: 
+a. 
+UPDATE table_name
+SET column_name_1 = value_1, column_name_2 = value_2, ...
+WHERE condition;
+
+Example:
+UPDATE Avengers
+SET contactName = 'Tony Stark', phoneNumber = '895-2236-4802'
+WHERE id = 02835;

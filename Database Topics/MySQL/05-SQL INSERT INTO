@@ -1,0 +1,6 @@
+"INSERT INTO" statement is used to insert new records in a table. 
+
+SYNTAX:
+a.
+INSERT INTO table_name(column_name_1, column_name_2, ...)
+VALUES (value_1, value_2, ...);

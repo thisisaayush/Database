@@ -1,0 +1,12 @@
+"WHERE" statement can be combined with AND, OR, and NOT operators 
+to filter the records based on more than one specified condition.
+
+SYNTAX:
+a.
+SELECT * FROM table_name
+WHERE condition_1 OR condition_2;
+
+Example:
+SELECT countryName, cityName 
+FROM Country
+WHERE countryName = 'Italy' OR countryName = 'Brazil';

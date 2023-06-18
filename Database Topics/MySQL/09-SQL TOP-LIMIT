@@ -1,0 +1,15 @@
+"TOP" or "LIMIT" statement is used to specify the number of records to return.
+
+SYNTAX:
+a.
+SELECT TOP number | n PERCENT * FROM table_name;
+b. 
+SELECT * FROM table_name
+LIMIT number;
+
+Example:
+a.
+SELECT TOP 10 * FROM Customers;
+b.
+SELECT * FROM Customers
+LIMIT 10;
